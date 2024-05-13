@@ -1,0 +1,18 @@
+load_file doc1.txt
+print_document
+replace_text "CS"   "Computer Science"
+print_document
+highlight_text "every"
+print_document
+
+#INVALID COMMAND
+replace_text "CS"
+load_file
+highlight_text
+remove_text
+remove_line 1 5 afaaef
+remove_line 1
+
+replace_text "Computer Science" "FOOD"
+print_document
+quit

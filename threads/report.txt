@@ -1,0 +1,59 @@
+Number of elements
+Number of threads
+User time
+System time
+Wall time
+
+Trial 1:
+10
+2
+0.000000
+0.000230
+0.000359
+
+Trial 2:
+10
+4
+0.000000
+0.000433
+0.021236
+
+Trial 3:
+20
+4
+0.000416
+0.000000
+0.019745
+
+Trial 4:
+20
+10
+0.000000
+0.000706
+0.020044
+
+Trial 5:
+80
+10
+0.000000
+0.000753
+0.033251
+
+Trial 6:
+80
+20
+0.000000
+0.001083
+0.023671
+
+Summary:
+Based on the data, it seems like as more threads are used to process a fixed number of elements, 
+the wall time (elapsed time) increases. For example, when 2 threads were used to process 10 elements, 
+the wall time was 0.000359 seconds; on the contrary, when 4 threads were used, 0.021236 seconds elapsed. 
+A similar pattern could also be said when 4 and 10 threads were used respectively to process 20 elements.
+
+The results were opposite to what I expected. 
+I thought that performance time would increase as more threads are used. 
+In my opinion, this could be due to the fact that since more threads are being used, 
+there are more processes running in the CPU, 
+thus causing the program to run longer to process the additional threads.

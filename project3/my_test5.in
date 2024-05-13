@@ -1,0 +1,34 @@
+add_paragraph_after 0
+add_line_after 1 0 *fnqwfhqwhf0q
+add_line_after 1 1 *snoawifq0
+
+add_paragraph_after 1
+append_line 2 * ifnqwfqwhf0q0
+replace_text "f" "COMPUTER SCIENCE"
+highlight_text "COMPUTER"
+remove_text "SCIENCE"
+replace_text "q" ""
+replace_text "M" " sfwo "
+
+append_line 2 * sidjw0q
+append_line 2 *xjcnoaeufoa
+append_line 2 *9238cdubgw0
+remove_line 2 1
+remove_line 2 2
+append_line 1 * s8qw8h
+save_document random.file.tmp
+print_document
+
+save_document fnqwfnq0w8fb08
+reset_document
+print_document
+
+#INVALID COMMANDS
+add_line_after 1
+save_document
+save_document sff0qwh0q 1
+exit 1
+quit 2
+load_file doc1.txt file
+remove_line 5 1 2
+add_paragraph_after

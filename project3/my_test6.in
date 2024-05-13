@@ -1,0 +1,4 @@
+add_paragraph_after 0
+add_line_after 1 1 *Hello
+remove_line 1 1
+print_document

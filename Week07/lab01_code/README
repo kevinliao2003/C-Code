@@ -1,0 +1,41 @@
+1. double_value_single_file.S - Shows how to implement and call a function
+   named double_value that doubles the value provided in the parameter.
+   To assemble/compile and run using the provided Makefile execute:
+
+                make double_value_single_file.run 
+ 
+2. We can divide the above code in the following files:
+
+   double_value_driver.S - represents the driver in assembly 
+                           (calls double_value) 
+
+   double_value.S - only has the double_value function implementation. 
+
+   lab_support.S - has support functions (e.g., pint) 
+
+   To create an executable we need to assemble/compile the above
+   files along with serial.c. To assemble/compile and run using the provided 
+   Makefile execute:
+
+                  make double_value_driver.run
+   
+3. The assembly double_value function can be called from a C
+   program.  This is illustrated by the c_prog_calling_double_value.c
+   We will need to assemble/compile the files c_prog_calling_double_value.c,
+   double_value.S and serial.c.  To assemble/compile using the
+   provided Makefile execute:
+
+                make c_prog_calling_double_value_s  
+
+   To run execute:
+
+                make c_prog_calling_double_value_s.run  
+
+   IMPORTANT: the target name ends with _s (make c_prog_calling_double_value 
+   is not correct).  We want to use the _s convention you will see
+   in the assembly project.
+
+4. make clean - removes executables
+
+5. make - builds all executables
+

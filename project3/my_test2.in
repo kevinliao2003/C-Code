@@ -1,0 +1,37 @@
+# creating a paragraph and inserting some lines
+add_paragraph_after 0
+add_line_after 1 0 *first line of the document
+add_line_after 1 0 *  random line 1
+add_line_after 1 0 *     random line 2
+
+add_line_after 1 1 *second line of the document
+add_paragraph_after 1
+add_line_after 2 0 *       random line 3
+add_line_after 2 1 * I like food
+
+   # let's print it
+print_document
+
+#make sure these commands are INVALID
+add_paragraph_after 1 0 *nfqwf9wuf wfubq9uf
+add_line_after 2 1
+print_document qfouqwr
+quit wrh8hr
+exit 0wfqw0rj90qr
+append_line -1 *ofnenfunonfowen
+append_line
+remove_line -1 -56
+remove_line 2 1 iefnowefnwo
+remove_line 1
+load_file
+load_file qoifnqonf
+replace_text
+highlight_text
+remove_text
+save_document
+reset_document eifwie
+
+reset_document
+print_document
+
+quit

@@ -1,0 +1,13 @@
+# creating a paragraph and inserting some lines
+add_paragraph_after 0
+add_line_after 1 0 *first line of the document
+add_line_after 1 0 *  random line 1
+add_line_after 1 0 *     random line 2
+
+add_line_after 1 1 *second line of the document
+add_paragraph_after 1
+add_line_after 2 0 *       random line 3
+
+   # let's print it
+print_document
+quit

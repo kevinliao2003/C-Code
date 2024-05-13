@@ -1,0 +1,12 @@
+Numeric Score: 65.5000
+Points Penalty Per Day Late: 3
+Number of Assignments Dropped: 3
+Values Provided:
+Assignment, Score, Weight, Days Late
+1, 82, 10, 1
+2, 94, 15, 7
+3, 87, 10, 4
+4, 78, 30, 5
+5, 28, 20, 5
+6, 69, 15, 2
+Mean = 61.0000, Standard Deviation = 22.2711
